@@ -1,0 +1,12 @@
+body {background-image: url('../background.png');}
+
+.col-md-2{position:absolute;
+  		  top:50%;
+  		  left:50%;
+  		  margin-top:-170px; /* this is half the height of your div*/  
+  		  margin-left:-100px; /*this is half of width of your div*/}
+.col-md-2 img{position: absolute;
+			  box-shadow: 8px -3px 3px #333333;
+			  border-radius: 30px;}
+.col-md-2 img.logo{position: absolute;opacity: 0;}
+.col-md-2 img.logo:hover{opacity:1;}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Store & Find Item</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container-fluid">
+				<div class="col-md-2">
+					<img src="phone.png" height="342" width="168">
+					<a href="http//www.yuinchinchen.com" target="_blank">
+						<img class="logo" src="phone-1.png" height="342" width="168">
+					</a>
+				</div>
+	</div>
+</body>
+<script src="scripts/jquery.min.js" type="text/javascript"></script>
+<script src="scripts/jquery-2.1.0.js" type="text/javascript"></script>
+    <script src="scripts/jquery.backgroundpos.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+ $(document).ready(homePage)
+ function homePage(){
+ 	$('col-md-2 img.logo').mouseover(function(){
+ 		$('col-md-2 img.logo').css({'opacity':'1'},1000);
+ 	})
+ }
+ </script>
+</html>
