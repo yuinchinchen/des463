@@ -10,3 +10,16 @@ body {background-image: url('../background.png');}
 			  border-radius: 30px;}
 .col-md-2 img.logo{position: absolute;opacity: 0;}
 .col-md-2 img.logo:hover{opacity:1;}
+.stockIcons{position: relative;}
+.stockIcons img{position: relative;
+				box-shadow: none;
+			   border-radius: 0px;
+				display: block;}
+.twoBlocks{display: inline-flex;}
+.row {margin-left: 0px;
+	  margin-right: 0px;
+	  position: relative;}
+.row textarea{width: 137px;
+			  margin-top:15px;
+			  margin-left: 15px;}
+.row input#submit{margin:5% 28%;}
