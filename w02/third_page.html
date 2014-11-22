@@ -1,0 +1,54 @@
+<?php require('req_global.php');
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Store & Find Item</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	
+	<!-- <div class="container-fluid"> -->
+				<div class="col-md-2">
+					<img src="images/5.png" height="343" width="170">
+					
+						<div class="stockIcons" >
+							<div class="twoBlocks">
+							<a href="second_page.html"><img src="images/5-1_01.png" height="82" width="86"></a>
+							<a href="index.html"><img src="images/5-1_02.png" height="82" width="83"></a>
+							</div>
+						</div>
+						<div>
+						<form>
+						<div class="row">
+							<!-- <label for="username" f>Name</label> -->
+							<textarea id="items"  placeholder="Your Items"></textarea>
+						</div>
+						<div class="row">
+							<!-- <label>Message</label> -->
+							<textarea name="message" placeholder="Item Location"></textarea>
+						</div>
+						<div class="row">
+							<input id="submit" type="submit" value="Submit" />
+						</div>
+						</form>
+						</div>
+				</div>
+	<!-- </div> -->
+</body>
+<script src="scripts/jquery.min.js" type="text/javascript"></script>
+<script src="scripts/jquery-2.1.0.js" type="text/javascript"></script>
+    <script src="scripts/jquery.backgroundpos.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+ $(document).ready(homePage)
+ function homePage(){
+ 	$('col-md-2 img.logo').mouseover(function(){
+ 		$('col-md-2 img.logo').css({'opacity':'1'},1000);
+ 	})
+ }
+ </script>
+</html>
